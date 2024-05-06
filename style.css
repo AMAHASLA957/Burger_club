@@ -1,0 +1,163 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+
+.video-background {
+    position: fixed;
+    /* Позиционирование фонового видео */
+    right: 0;
+    bottom: 0;
+    /* min-width: 100%;
+    min-height: 100%; */
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    /* Отправляем на задний план */
+    background: no-repeat;
+    background-size: cover;
+}
+
+video {
+    /* Устраняем черные полосы по краям видео */
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.content {
+    position: relative;
+    /* Позиционирование содержимого над видео */
+    z-index: 10;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header-styles {
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.container {
+            max-width: 1158px;
+                padding: 0 15px;
+}
+
+
+
+.raleway-uniquifier> {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    padding-left: 0;
+    margin: 0;
+}
+
+.logo-head {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    font-optical-sizing: auto;
+    line-height: 1.17;
+    color: #4d5ae5;
+    text-transform: uppercase;
+    display: flex;
+    padding: 17px 0;
+}
+.logo-head-second {
+    color: #2e2f42;
+}
+        .head-page {
+            display: flex;
+            gap: 40px;
+            margin-left: 40px;
+        }
+                        .addres-class {
+                            font-style: normal;
+                            display: flex;
+                            margin-left: auto;
+                        }
+.head-page .link-head {
+    font-family: "Roboto" sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+    display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+        .contacts .my-contacts {
+            font-family: "Roboto", sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 1.16px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #434455;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+                .header-styles .container {
+                    display: flex;
+                    margin: 0 auto;
+                    justify-content: space-between;
+                }
+.nav-style {
+    display: flex;
+    align-items: center;
+}
